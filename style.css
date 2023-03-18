@@ -103,7 +103,7 @@
     body {
         background-color: yellow;
     }
-    .status-bar {
+    .status-bar, .welcome-header, #login-form {
         display: none;
     }
 }
