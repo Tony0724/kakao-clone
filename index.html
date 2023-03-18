@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kakao-clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span id="service">No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <div class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to kakao clone!</h1>
+        <p class="welcome-header__text">If you have a kakao account, log in with your email or phone number.</p>
+    </div>
+    <form action="#" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Put your email or phone number">
+        <input name="password" type="password" placeholder="Put your password">
+        <input type="submit" value="Log In">
+        <a href="#">find KaKao Account or password</a>
+    </form>
     <p id="screen_resize_p">Your screen is too big! Please resize your display!</p>
     <script src="./app.js"></script>
 </body>
